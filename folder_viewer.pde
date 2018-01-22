@@ -33,7 +33,7 @@ void setup () {
   canvas = createGraphics(realWidth, realHeight);
 
   windows = new ArrayList<Movable>();
-     windows.add(new Window("---", random(300)+30, random(300)+20));
+     windows.add(new Window("---", 200, 300));
  // windows.add(new Window("Making a fake OS theme in Processing", 80, 80));
 }
 
